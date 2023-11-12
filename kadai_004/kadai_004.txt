@@ -1,0 +1,27 @@
+PS C:\Users\owner\OneDrive\デスクトップ\kadai_005> cd C:\Users\owner\OneDrive\デスクトップ
+
+
+    ディレクトリ: C:\Users\owner\OneDrive\デスクトップ
+
+
+Mode                 LastWriteTime         Length Name                                                                                                        
+----                 -------------         ------ ----                                                                                                        
+d-----        2023/11/13      0:23                git_challenge                                                                                               
+
+
+PS C:\Users\owner\OneDrive\デスクトップ> cd git_challenge
+PS C:\Users\owner\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/owner/OneDrive/デスクトップ/git_challenge/.git/
+PS C:\Users\owner\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\owner\OneDrive\デスクトップ\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 1438b40] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\owner\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\owner\OneDrive\デスクトップ\git_challenge> git commit -m "日本語を追記"
+[main fe13cd2] 日本語を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\owner\OneDrive\デスクトップ\git_challenge> git log --oneline
+fe13cd2 (HEAD -> main) 日本語を追記
+1438b40 hello_world.txtを追加
+PS C:\Users\owner\OneDrive\デスクトップ\git_challenge> 
